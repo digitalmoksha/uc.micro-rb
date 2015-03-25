@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Brett Walker", "Vitaly Puzrin"]
   gem.email         = 'github@digitalmoksha.com'
   gem.summary       = "Micro subset of unicode data files for motion-markdown-it projects"
-  gem.description   = "Micro subset of unicode data files for motion-markdown-it projects"
+  gem.description   = "Micro subset of unicode data files for motion-markdown-it projects for Ruby and RubyMotion"
   gem.homepage      = 'https://github.com/digitalmoksha/uc.micro-rb'
   gem.licenses      = ['WTFPL']
 
