@@ -10,7 +10,3 @@ This gem is a port of the [uc.micro javascript package](https://github.com/markd
 Micro subset of unicode data files for [motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it) projects, for both Ruby and RubyMotion.
 
 Uses files from the [unicode-10.0.0](https://github.com/mathiasbynens/unicode-10.0.0) repository.
-
-## License
-
-[WTFPL](http://www.wtfpl.net/txt/copying/)
