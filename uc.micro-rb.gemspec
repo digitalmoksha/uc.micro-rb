@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Micro subset of unicode data files for motion-markdown-it projects"
   gem.description   = "Micro subset of unicode data files for motion-markdown-it projects for Ruby and RubyMotion"
   gem.homepage      = 'https://github.com/digitalmoksha/uc.micro-rb'
-  gem.licenses      = ['WTFPL']
+  gem.licenses      = ['MIT']
 
   gem.files         = Dir.glob('lib/**/*.rb')
   gem.files        << 'README.md'
@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
 
   gem.require_paths = ["lib"]
 
+  gem.add_development_dependency 'bacon-expect', '~> 1.0' # required for Travis build to work
 end
