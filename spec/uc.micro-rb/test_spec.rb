@@ -23,6 +23,8 @@ describe 'Unicode classes' do
 
   it 'Z' do
     expect(UCMicro::Categories::Z::REGEX.match(' ')).not_to eq nil
+    expect(UCMicro::Categories::Z::REGEX.match("\u2028")).not_to eq nil
+    expect(UCMicro::Categories::Z::REGEX.match("\u2029")).not_to eq nil
     expect(UCMicro::Categories::Z::REGEX.match('A')).to eq nil
   end
 end

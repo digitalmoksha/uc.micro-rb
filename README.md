@@ -1,9 +1,11 @@
 # uc.micro-rb
 
 [![Gem Version](https://badge.fury.io/rb/uc.micro-rb.svg)](http://badge.fury.io/rb/uc.micro-rb)
-[![Build Status](https://travis-ci.org/digitalmoksha/uc.micro-rb.svg?branch=master)](https://travis-ci.org/digitalmoksha/uc.micro-rb)
+[![Build Status](https://github.com/digitalmoksha/uc.micro-rb/actions/workflows/ci.yml/badge.svg)](https://github.com/digitalmoksha/uc.micro-rb/actions/workflows/ci.yml)
 
-This gem is a port of the [uc.micro javascript package](https://github.com/markdown-it/uc.micro) by Vitaly Puzrin, that is used for the motion-markdown-it gem. Currently synced with uc.micro 1.0.5
+This gem is a port of the [uc.micro javascript package](https://github.com/markdown-it/uc.micro) by Vitaly Puzrin, that is used for the motion-markdown-it gem.
+
+_Currently synced with uc.micro 1.0.5_
 
 ---
 
